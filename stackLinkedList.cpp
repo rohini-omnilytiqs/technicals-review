@@ -14,10 +14,10 @@ class Stack{
     public:
         Stack();
         ~Stack();
-        void push(int value);
-        int pop();
-        int peek();
-        bool isEmpty();
+        void push(int value); // O(1)
+        int pop(); // O(1)
+        int peek(); // O(1)
+        bool isEmpty(); // O(1)
 };
 
 /**

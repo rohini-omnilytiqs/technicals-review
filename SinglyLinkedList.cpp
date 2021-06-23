@@ -15,20 +15,20 @@ class SinglyLinkedList{
     public:
         SinglyLinkedList();
         ~SinglyLinkedList();
-        void pushFront(int value);
-        int popFront();
-        void pushBack(int value);
-        int popBack();
-        void print();
-        int size();
-        bool isEmpty();
-        int front();
-        int back();
-        void insertAtIndex(int index, int value);
-        void deleteValue(int value);
-        void eraseAtIndex(int index);
-        void reverse();
-        void weave();
+        void pushFront(int value); // O(1)
+        int popFront(); // O(1)
+        void pushBack(int value); // O(1)
+        int popBack(); // O(n)
+        void print(); // O(n)
+        int size(); // O(n)
+        bool isEmpty(); // O(1)
+        int front(); // O(1)
+        int back(); // O(1)
+        void insertAtIndex(int index, int value); // O(n)
+        void deleteValue(int value); // O(n)
+        void eraseAtIndex(int index); // O(n)
+        void reverse(); // O(n)
+        void weave(); // O(n)
 };
 
 /**
