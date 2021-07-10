@@ -1,3 +1,4 @@
+// a binary search tree has a node's left descendants being smaller than it, and its right descendants being larger
 #include <iostream>
 #include <vector>
 #include <stack>
